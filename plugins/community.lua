@@ -18,4 +18,8 @@ return {
   { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.project.project-nvim" },
+  { import = "astrocommunity.media.vim-wakatime" },
+  { import = "astrocommunity.motion.mini-move" },
+  { import = "astrocommunity.syntax.hlargs-nvim" },
+  { import = "astrocommunity.syntax.vim-easy-align" },
 }
