@@ -2,21 +2,21 @@
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
-## Pre-Requirements
+## Requirements
 
-APT (apt-get & apt)
+### APT (apt-get & apt)
 ```shell
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-Rust:
+### Rust:
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
 ```
 
-Node:
+### Node:
 ```shell
 sudo apt-get install python3 g++ make python3-pip
 sudo apt install nodejs
