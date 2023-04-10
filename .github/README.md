@@ -44,14 +44,18 @@ cargo install bottom --locked
 
 ### NVIM
 ```shell
-curl -Lo .hiden/nvim.appimage https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-chmod u+x .hiden/nvim.appimage
+mkdir ~/.hidden
+cd ~/.hidden
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x ./nvim.appimage
 
-./.hiden/nvim.appimage --appimage-extract
+./nvim.appimage --appimage-extract
 ./squashfs-root/AppRun --version
 
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+cd ~
+
 nvim
 ```
 
