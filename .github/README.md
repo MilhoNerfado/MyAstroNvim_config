@@ -1,6 +1,24 @@
-# AstroNvim User Configuration Example
+# My AstroNvim User Configuration (for WSL)
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+
+## Pre-Requirements
+
+### NVIM
+
+```shell
+curl -Lo .hiden/nvim.appimage https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x .hiden/nvim.appimage
+
+./.hiden/nvim.appimage --appimage-extract
+./squashfs-root/AppRun --version
+
+sudo mv squashfs-root /
+sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+nvim
+```
+
+
 
 ## 🛠️ Installation
 
