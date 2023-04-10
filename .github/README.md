@@ -13,9 +13,34 @@ sudo apt-get upgrade
 Rust:
 ```shell
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source "$HOME/.cargo/env"
 ```
 
-NVIM
+Node:
+```shell
+sudo apt-get install python3 g++ make python3-pip
+sudo apt install nodejs
+```
+
+### Astro Pre-Reqs:
+Tree Sitter CLI:
+```shell
+cargo install tree-sitter-cli
+```
+ripgrep
+```shell
+cargo install ripgrep
+```
+```shell
+curl -L https://github.com/dundee/gdu/releases/latest/download/gdu_linux_amd64.tgz | tar xz
+chmod +x gdu_linux_amd64
+sudo mv gdu_linux_amd64 /usr/bin/gdu
+```
+```shell
+cargo install bottom --locked
+```
+
+### NVIM
 ```shell
 curl -Lo .hiden/nvim.appimage https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x .hiden/nvim.appimage
