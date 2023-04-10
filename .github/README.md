@@ -4,15 +4,18 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## Pre-Requirements
 
-### APT (apt-get & apt)
-
+APT (apt-get & apt)
 ```shell
 sudo apt-get update
 sudo apt-get upgrade
 ```
 
-### NVIM
+Rust:
+```shell
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
 
+NVIM
 ```shell
 curl -Lo .hiden/nvim.appimage https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x .hiden/nvim.appimage
