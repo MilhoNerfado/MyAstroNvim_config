@@ -4,6 +4,13 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## Pre-Requirements
 
+### APT (apt-get & apt)
+
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 ### NVIM
 
 ```shell
