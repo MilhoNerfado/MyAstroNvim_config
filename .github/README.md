@@ -20,6 +20,18 @@ source "$HOME/.cargo/env"
 ```shell
 sudo apt-get install python3 g++ make python3-pip
 sudo apt install nodejs
+
+sudo apt update
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+wget -q0- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+source ~/.bashrc
+nvm --version
+
+nvm ls
+nvm ls-remote
+
+nvm install [version.number]
 ```
 
 ### Astro Pre-Reqs:
