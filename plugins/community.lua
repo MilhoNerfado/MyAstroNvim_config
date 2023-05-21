@@ -17,6 +17,7 @@ return {
   { import = "astrocommunity.bars-and-lines.bufferline-nvim" },
   { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.git.openingh" },
   { import = "astrocommunity.project.project-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
   { import = "astrocommunity.motion.mini-move" },
