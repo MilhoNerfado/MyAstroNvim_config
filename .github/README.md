@@ -54,6 +54,11 @@ Bottom:
 cargo install bottom --locked
 ```
 
+Extras:
+```shell
+sudo apt install python3.10-venv unzip
+```
+
 ### NVIM
 ```shell
 mkdir ~/.hidden
@@ -70,8 +75,6 @@ cd ~
 
 nvim
 ```
-
-
 
 ## 🛠️ Installation
 
